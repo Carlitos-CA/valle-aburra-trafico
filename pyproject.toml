@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "valle-aburra-trafico"
+version = "0.1.0"
+description = "Diagnóstico y simulación de tráfico del Valle de Aburrá"
+requires-python = ">=3.11"
+dependencies = [
+  "branca>=0.8",
+  "folium>=0.17",
+  "geopandas>=1.0",
+  "networkx>=3.2",
+  "osmnx>=2.0",
+  "pandas>=2.2",
+  "pyogrio>=0.9",
+  "PyYAML>=6.0",
+  "shapely>=2.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.ruff]
+line-length = 100
