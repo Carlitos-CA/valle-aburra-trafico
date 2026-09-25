@@ -1,0 +1,29 @@
+municipios:
+  - nombre: Medellín
+    consulta_nominatim: "Medellín, Antioquia, Colombia"
+  - nombre: Bello
+    consulta_nominatim: "Bello, Antioquia, Colombia"
+  - nombre: Copacabana
+    consulta_nominatim: "Copacabana, Antioquia, Colombia"
+  - nombre: Girardota
+    consulta_nominatim: "Girardota, Antioquia, Colombia"
+  - nombre: Barbosa
+    consulta_nominatim: "Barbosa, Antioquia, Colombia"
+  - nombre: Envigado
+    consulta_nominatim: "Envigado, Antioquia, Colombia"
+  - nombre: Itagüí
+    consulta_nominatim: "Itagüí, Antioquia, Colombia"
+  - nombre: Sabaneta
+    consulta_nominatim: "Sabaneta, Antioquia, Colombia"
+  - nombre: La Estrella
+    consulta_nominatim: "La Estrella, Antioquia, Colombia"
+  - nombre: Caldas
+    consulta_nominatim: "Caldas, Antioquia, Colombia"
+
+parametros:
+  tipo_red: drive
+  top_tramos: 50
+  k_importancia_estructural: 2000
+  semilla: 42
+  zoom_mapa_completo: 10
+  zoom_mapa_top: 12
